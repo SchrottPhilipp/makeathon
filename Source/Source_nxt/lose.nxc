@@ -1,0 +1,7 @@
+task main()
+{
+    RotateMotor(OUT_C,50,-85);Wait(100);
+    RotateMotor(OUT_A,75,50);
+    RotateMotor(OUT_C,50,85);Wait(100);
+}
+
